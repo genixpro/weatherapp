@@ -7,3 +7,6 @@ apt-get install -y virtualbox-guest-additions
 
 cd /vagrant/weatherapp
 python setup.py develop
+
+pserve production.ini &
+
